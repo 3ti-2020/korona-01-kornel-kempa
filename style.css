@@ -1,3 +1,62 @@
-body {
-color: darkgrey;
-}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    column-gap: 1px;
+    row-gap: 1px;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "a a a a a a a a a a"
+      "b b b b b b b b b b"
+      "b b b b b b b b b b"
+      "c c c c c c c c c c"
+      "d d d d d d d d d d"
+      "d d d d d d d d d d"
+      "d d d d d d d d d d"
+      "d d d d d d d d d d"
+      "d d d d d d d d d d"
+      "e e e e e e e e e e";
+  }
+  .imie {
+    color: cyan
+  }
+  .itemA {
+    grid-area:a ;
+    background-color:blue;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .itemB {
+     grid-area:b ;
+    background-color: tan;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .itemC {
+     grid-area:c ;
+    background-color:navajowhite;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .itemD {
+     grid-area:d ;
+    background-color:darkcyan;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .itemE {
+     grid-area:e ;
+    background-color:khaki;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
