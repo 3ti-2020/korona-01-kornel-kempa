@@ -1,0 +1,80 @@
+.tabela, td, th{
+    border: 1px solid white;
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    background-image:url(tlo3.jpeg);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 20% 70%;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+  }
+  .itemA {
+      grid-area:a ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .itemB {
+      grid-area:b ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .itemC {
+      grid-area:c ;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .tytul {
+      color: white;
+      font-size: 60px;
+  }
+  .ul1 {
+    float: center;
+    width: 100%;
+    padding: 0;
+    margin: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    li a {
+    display: block;
+    float: center;
+    text-align: center;
+    font-size: 1.2em;
+    width: 130px;
+    text-decoration: none;
+    color: white;
+    background-color: gainsboro;
+    padding: 10px 15px;
+    margin: 0px 1px 1px 0px;
+    border: 1px solid navy;
+    border-radius: 3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 3px gray;
+    -moz-box-shadow: 0px 2px 3px gray;
+    -webkit-box-shadow: 0px 2px 3px gray;
+    }
+    
+    li a:hover {
+    color: gainsboro;
+    background: wheat;
+    border: 1px solid gainsboro;
+    }
