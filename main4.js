@@ -11,6 +11,7 @@ const srednia = {
     isShow : 0, 
     suma : 0, 
     dzielnik : 0,
+    wynik : 0,
 
     btnDodajLiczbe: function(){
         this.dodajLiczbe.addEventListener('click', this.dodawanieLiczby.bind(srednia));
