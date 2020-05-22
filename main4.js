@@ -34,7 +34,7 @@ const srednia = {
 
     obliczanie:function(){
         this.wynik = this.suma/this.dzielnik;
-        this.wynikTxt.innerText = wynik.toFixed(1);
+        this.wynikTxt.innerText = this.wynik.toFixed(1);
     },
 
     btnPokazListe:function(){
