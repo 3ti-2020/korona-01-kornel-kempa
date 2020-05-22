@@ -21,10 +21,3 @@ btn6.addEventListener(
 const r = document.querySelector(".r");
 const btn10 = document.querySelector(".btn10");
 const wynik10 = document.querySelector(".wynik10");
-
-btn10.addEventListener(
-    'click',
-    function(){
-        wynik10.innerText = r.value * r.value;
-    }
-)
