@@ -33,7 +33,7 @@ const srednia = {
     },
 
     obliczanie:function(){
-        wynik = this.suma/this.dzielnik;
+        this.wynik = this.suma/this.dzielnik;
         this.wynikTxt.innerText = wynik.toFixed(1);
     },
 
