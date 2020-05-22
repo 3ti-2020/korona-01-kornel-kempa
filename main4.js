@@ -18,12 +18,12 @@ const srednia = {
 
     dodawanieLiczby: function(){
 
-        this.lista.innerHTML += "Ocena: " + this.ocena.value + " | Waga: " + this.waga.value + "<br>"; // wpisuje do listy oceny i wage 
+        this.lista.innerHTML += "Ocena: " + this.ocena.value + " | Waga: " + this.waga.value + "<br>"; 
  
         this.suma += this.ocena.value*1 * this.waga.value*1; 
         this.dzielnik += this.waga.value*1;
 
-        this.ocena.value = null;  
+        this.ocena.value = null; 
         this.waga.value = null; 
     },
 
@@ -41,7 +41,7 @@ const srednia = {
     },
 
     pokazywanie:function(){
-        if(this.isShow===0){
+        if(this.isShow===0){ 
             this.listaOcen.style.display = "block";
             this.isShow = 1;
         }else{
